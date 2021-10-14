@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706EBB94271862B3008AA4BC /* AhllgovApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 706EBB81271862B2008AA4BC /* AhllgovApp.xcdatamodeld */; };
+		706EBB95271862B3008AA4BC /* AhllgovApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 706EBB81271862B2008AA4BC /* AhllgovApp.xcdatamodeld */; };
+		706EBB96271862B3008AA4BC /* AhllgovAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EBB83271862B2008AA4BC /* AhllgovAppApp.swift */; };
+		706EBB97271862B3008AA4BC /* AhllgovAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EBB83271862B2008AA4BC /* AhllgovAppApp.swift */; };
+		706EBB98271862B3008AA4BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EBB84271862B2008AA4BC /* ContentView.swift */; };
+		706EBB99271862B3008AA4BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EBB84271862B2008AA4BC /* ContentView.swift */; };
+		706EBB9A271862B3008AA4BC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EBB85271862B2008AA4BC /* Persistence.swift */; };
+		706EBB9B271862B3008AA4BC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EBB85271862B2008AA4BC /* Persistence.swift */; };
+		706EBB9C271862B3008AA4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EBB86271862B3008AA4BC /* Assets.xcassets */; };
+		706EBB9D271862B3008AA4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EBB86271862B3008AA4BC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706EBB82271862B2008AA4BC /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		706EBB83271862B2008AA4BC /* AhllgovAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhllgovAppApp.swift; sourceTree = "<group>"; };
+		706EBB84271862B2008AA4BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		706EBB85271862B2008AA4BC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		706EBB86271862B3008AA4BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706EBB8B271862B3008AA4BC /* AhllgovApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhllgovApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706EBB91271862B3008AA4BC /* AhllgovApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhllgovApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706EBB93271862B3008AA4BC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706EBB88271862B3008AA4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706EBB8E271862B3008AA4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706EBB7B271862B1008AA4BC = {
+			isa = PBXGroup;
+			children = (
+				706EBB80271862B2008AA4BC /* Shared */,
+				706EBB92271862B3008AA4BC /* macOS */,
+				706EBB8C271862B3008AA4BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706EBB80271862B2008AA4BC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				706EBB83271862B2008AA4BC /* AhllgovAppApp.swift */,
+				706EBB84271862B2008AA4BC /* ContentView.swift */,
+				706EBB85271862B2008AA4BC /* Persistence.swift */,
+				706EBB86271862B3008AA4BC /* Assets.xcassets */,
+				706EBB81271862B2008AA4BC /* AhllgovApp.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		706EBB8C271862B3008AA4BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706EBB8B271862B3008AA4BC /* AhllgovApp.app */,
+				706EBB91271862B3008AA4BC /* AhllgovApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706EBB92271862B3008AA4BC /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				706EBB93271862B3008AA4BC /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706EBB8A271862B3008AA4BC /* AhllgovApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706EBBA0271862B3008AA4BC /* Build configuration list for PBXNativeTarget "AhllgovApp (iOS)" */;
+			buildPhases = (
+				706EBB87271862B3008AA4BC /* Sources */,
+				706EBB88271862B3008AA4BC /* Frameworks */,
+				706EBB89271862B3008AA4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AhllgovApp (iOS)";
+			productName = "AhllgovApp (iOS)";
+			productReference = 706EBB8B271862B3008AA4BC /* AhllgovApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		706EBB90271862B3008AA4BC /* AhllgovApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706EBBA3271862B3008AA4BC /* Build configuration list for PBXNativeTarget "AhllgovApp (macOS)" */;
+			buildPhases = (
+				706EBB8D271862B3008AA4BC /* Sources */,
+				706EBB8E271862B3008AA4BC /* Frameworks */,
+				706EBB8F271862B3008AA4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AhllgovApp (macOS)";
+			productName = "AhllgovApp (macOS)";
+			productReference = 706EBB91271862B3008AA4BC /* AhllgovApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706EBB7C271862B1008AA4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					706EBB8A271862B3008AA4BC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					706EBB90271862B3008AA4BC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 706EBB7F271862B1008AA4BC /* Build configuration list for PBXProject "AhllgovApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706EBB7B271862B1008AA4BC;
+			productRefGroup = 706EBB8C271862B3008AA4BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706EBB8A271862B3008AA4BC /* AhllgovApp (iOS) */,
+				706EBB90271862B3008AA4BC /* AhllgovApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706EBB89271862B3008AA4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706EBB9C271862B3008AA4BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706EBB8F271862B3008AA4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706EBB9D271862B3008AA4BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706EBB87271862B3008AA4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706EBB94271862B3008AA4BC /* AhllgovApp.xcdatamodeld in Sources */,
+				706EBB9A271862B3008AA4BC /* Persistence.swift in Sources */,
+				706EBB96271862B3008AA4BC /* AhllgovAppApp.swift in Sources */,
+				706EBB98271862B3008AA4BC /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706EBB8D271862B3008AA4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706EBB95271862B3008AA4BC /* AhllgovApp.xcdatamodeld in Sources */,
+				706EBB9B271862B3008AA4BC /* Persistence.swift in Sources */,
+				706EBB97271862B3008AA4BC /* AhllgovAppApp.swift in Sources */,
+				706EBB99271862B3008AA4BC /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		706EBB9E271862B3008AA4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		706EBB9F271862B3008AA4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		706EBBA1271862B3008AA4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S26R5Q975;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahllgov.AhllgovApp;
+				PRODUCT_NAME = AhllgovApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		706EBBA2271862B3008AA4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S26R5Q975;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahllgov.AhllgovApp;
+				PRODUCT_NAME = AhllgovApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		706EBBA4271862B3008AA4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S26R5Q975;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahllgov.AhllgovApp;
+				PRODUCT_NAME = AhllgovApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		706EBBA5271862B3008AA4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S26R5Q975;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahllgov.AhllgovApp;
+				PRODUCT_NAME = AhllgovApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706EBB7F271862B1008AA4BC /* Build configuration list for PBXProject "AhllgovApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706EBB9E271862B3008AA4BC /* Debug */,
+				706EBB9F271862B3008AA4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706EBBA0271862B3008AA4BC /* Build configuration list for PBXNativeTarget "AhllgovApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706EBBA1271862B3008AA4BC /* Debug */,
+				706EBBA2271862B3008AA4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706EBBA3271862B3008AA4BC /* Build configuration list for PBXNativeTarget "AhllgovApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706EBBA4271862B3008AA4BC /* Debug */,
+				706EBBA5271862B3008AA4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		706EBB81271862B2008AA4BC /* AhllgovApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				706EBB82271862B2008AA4BC /* Shared.xcdatamodel */,
+			);
+			currentVersion = 706EBB82271862B2008AA4BC /* Shared.xcdatamodel */;
+			path = AhllgovApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 706EBB7C271862B1008AA4BC /* Project object */;
+}
